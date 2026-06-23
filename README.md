@@ -12,7 +12,7 @@
 
 ------------------------------📌 Project Overview------------------------------------------
 
-This project predicts whether a passenger survived the Titanic disaster using Machine Learning. The model is built using Logistic Regression on cleaned Titanic dataset.
+This project predicts passenger survival in the Titanic disaster using machine learning (Logistic Regression) on a cleaned dataset.
 
 .
 
@@ -34,10 +34,12 @@ who_woman
 embarked_Q
 embarked_S
 
+
 --------------------------------🧹 Data Cleaning---------------------------------------
 Missing values handled in age column
 Categorical values converted into numerical format
 Data prepared for model training
+
 
 -------------------------📊 Exploratory Data Analysis (EDA)-----------------------------
 
@@ -48,6 +50,7 @@ Sex vs Survival
 Pclass vs Survival
 Age distribution
 Relationship between features using heatmap
+
 
 =---------------------------🤖 Model-----------------------------------
 Logistic Regression model used
@@ -71,6 +74,7 @@ Confusion Matrix
  [18 51]]
 
 --------------------------------🔍 Summary------------------------------
+
 Model achieved around 83% accuracy
 It performs better in predicting non-survived passengers (Class 0)
 Prediction for survived passengers (Class 1) can still be improved
